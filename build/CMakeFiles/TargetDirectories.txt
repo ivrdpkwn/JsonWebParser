@@ -1,0 +1,2 @@
+/home/zhou/projects/JsonWebParser/build/CMakeFiles/edit_cache.dir
+/home/zhou/projects/JsonWebParser/build/CMakeFiles/rebuild_cache.dir

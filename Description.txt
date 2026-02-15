@@ -1,0 +1,15 @@
+项目名：JsonWebParser
+
+功能：
+
+GET / → 返回网页
+
+POST /api/parse → 解析 JSON
+
+前后端分离
+
+分层结构
+
+可扩展
+
+

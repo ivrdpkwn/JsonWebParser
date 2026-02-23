@@ -1,0 +1,367 @@
+:root {
+    /* VSCode Dark+ base */
+    --bg: #1e1e1e;
+    --panel: #252526;
+    --panel-2: #2d2d30;
+    --border: #3c3c3c;
+
+    --text: #d4d4d4;
+    --text-muted: #9ca3af;
+
+    /* accent (现代紫色，比蓝色更高级) */
+    --accent: #7c3aed;
+    --accent-hover: #8b5cf6;
+
+    --radius: 8px;
+}
+
+
+/* 全局 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+
+    font-family:
+        "Segoe UI",
+        "Microsoft YaHei",
+        "PingFang SC",
+        "Noto Sans SC",
+        system-ui,
+        sans-serif;
+
+    font-size: 14px;
+}
+
+
+/* 容器 */
+.container {
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+header p {
+    margin: 4px 0 0 0;
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+
+/* ⭐ 改为上下布局（核心） */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+/* 输入输出 section */
+.input-section,
+.output-section {
+
+    background: var(--panel);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    padding: 14px;
+}
+
+
+/* label */
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: var(--text);
+}
+
+
+/* textarea */
+textarea {
+
+    width: 100%;
+
+    min-height: 220px;
+
+    background: #1e1e1e;
+
+    color: #d4d4d4;
+
+    border: 1px solid var(--border);
+
+    border-radius: 6px;
+
+    padding: 12px;
+
+    font-family:
+        Consolas,
+        "Courier New",
+        monospace;
+
+    font-size: 13.5px;
+
+    line-height: 1.5;
+
+    resize: vertical;
+
+    outline: none;
+}
+
+
+/* focus */
+textarea:focus {
+
+    border-color: var(--accent);
+
+    box-shadow: 0 0 0 1px var(--accent);
+}
+
+
+/* 按钮组 */
+.button-group {
+
+    margin-top: 12px;
+
+    display: flex;
+
+    gap: 10px;
+}
+
+
+/* 按钮现代风格 */
+button {
+
+    background: var(--accent);
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    padding: 8px 16px;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: all 0.15s ease;
+}
+
+
+button:hover {
+
+    background: var(--accent-hover);
+}
+
+
+button:active {
+
+    transform: translateY(1px);
+}
+
+
+/* JSON viewer */
+.json-viewer {
+
+    background: #1e1e1e;
+
+    border: 1px solid var(--border);
+
+    border-radius: 6px;
+
+    padding: 12px;
+
+    min-height: 260px;
+
+    font-family:
+        Consolas,
+        "Courier New",
+        monospace;
+
+    font-size: 13.5px;
+
+    line-height: 1.5;
+
+    overflow: auto;
+}
+
+
+/* JSON 行 */
+.json-line {
+
+    display: flex;
+
+    white-space: pre;
+}
+
+
+/* 行号 */
+.line-number {
+
+    width: 40px;
+
+    color: #858585;
+
+    text-align: right;
+
+    margin-right: 12px;
+
+    user-select: none;
+}
+
+
+/* 折叠箭头 */
+.fold-toggle {
+
+    width: 16px;
+
+    cursor: pointer;
+
+    color: #c5c5c5;
+
+    margin-right: 6px;
+
+    user-select: none;
+}
+
+
+/* hover 行效果 */
+.json-line:hover {
+
+    background: rgba(255,255,255,0.03);
+}
+
+
+/* VSCode Dark+ syntax highlight */
+.json-key { color: #9cdcfe; }
+
+.json-string { color: #ce9178; }
+
+.json-number { color: #b5cea8; }
+
+.json-boolean { color: #569cd6; }
+
+.json-null { color: #569cd6; }
+
+
+/* footer */
+footer {
+
+    margin-top: 16px;
+
+    text-align: center;
+
+    font-size: 12px;
+
+    color: var(--text-muted);
+}
+
+/* section header */
+.section-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+
+/* editor container */
+.editor-container {
+
+    position: relative;
+}
+
+
+/* format 按钮（右下角） */
+#formatBtn {
+
+    position: absolute;
+
+    right: 10px;
+
+    bottom: 10px;
+}
+
+
+/* 通用按钮 */
+.btn {
+
+    border: none;
+
+    border-radius: 6px;
+
+    padding: 6px 14px;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    font-family:
+        "Microsoft YaHei",
+        "PingFang SC",
+        "Noto Sans SC",
+        sans-serif;
+}
+
+
+/* 主按钮 */
+.btn-primary {
+
+    background: #7c3aed;
+
+    color: white;
+}
+
+.btn-primary:hover {
+
+    background: #8b5cf6;
+}
+
+
+/* 次按钮 */
+.btn-secondary {
+
+    background: #3a3a3a;
+
+    color: #d4d4d4;
+
+    border: 1px solid #3c3c3c;
+}
+
+.btn-secondary:hover {
+
+    background: #4a4a4a;
+}

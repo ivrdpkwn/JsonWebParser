@@ -1,134 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JSON Web Parser</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsonWebParser</title>
 
-    <style>
-        :root {
-            --primary: #4f46e5;
-            --bg: #f5f7fa;
-            --border: #d1d5db;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: var(--bg);
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .panel {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-
-        textarea {
-            width: 100%;
-            min-height: 180px;
-            padding: 10px;
-            font-family: monospace;
-            font-size: 14px;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            resize: vertical;
-            box-sizing: border-box;
-        }
-
-        .actions {
-            margin: 15px 0;
-            text-align: right;
-        }
-
-        button {
-            padding: 8px 16px;
-            border: none;
-            border-radius: 6px;
-            background: var(--primary);
-            color: white;
-            cursor: pointer;
-            font-size: 14px;
-        }
-
-        button:hover {
-            opacity: 0.9;
-        }
-
-        .output {
-            margin-top: 15px;
-            background: #111827;
-            color: #f3f4f6;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 12px;
-            color: #6b7280;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
 <div class="container">
-    <h1>JSON Formatter</h1>
 
-    <div class="panel">
-        <label for="input"><strong>Input JSON</strong></label>
-        <textarea id="input" placeholder='{"name":"Sliys","age":20}'></textarea>
+    <header>
+        <h1>JSON Web Parser</h1>
+        <p>C++ Backend • httplib • nlohmann/json</p>
+    </header>
 
-        <div class="actions">
-            <button onclick="formatJson()">Format</button>
-        </div>
+    <main>
 
-        <label for="output"><strong>Result</strong></label>
-        <pre id="output" class="output"></pre>
-    </div>
+        <!-- Input -->
+        <section class="input-section">
 
-    <div class="footer">
-        JsonWebParser © 2026
-    </div>
+            <div class="section-header">
+                <label for="input">输入 JSON</label>
+
+                <button id="uploadBtn" class="btn btn-secondary">
+                    上传
+                </button>
+            </div>
+
+            <div class="editor-container">
+
+                <textarea
+                    id="input"
+                    placeholder='{"name":"Sliys","age":20}'
+                ></textarea>
+
+                <button id="formatBtn" class="btn btn-primary">
+                    格式化
+                </button>
+
+                <input
+                    type="file"
+                    id="fileInput"
+                    accept=".json"
+                    hidden
+                />
+
+            </div>
+
+        </section>
+
+        <!-- Output -->
+        <section class="output-section">
+
+            <div class="section-header">
+
+                <label>解析结果</label>
+
+                <button id="downloadBtn" class="btn btn-secondary">
+                    下载
+                </button>
+
+            </div>
+
+            <div id="result" class="json-viewer"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        JsonWebParser • Built with C++ & Vanilla JS
+    </footer>
+
 </div>
 
-<script>
-    async function formatJson() {
-        const input = document.getElementById("input").value;
-        const output = document.getElementById("output");
-
-        if (!input.trim()) {
-            output.textContent = "Please enter JSON.";
-            return;
-        }
-
-        try {
-            const response = await fetch("/api/parse", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "text/plain"
-                },
-                body: input
-            });
-
-            const result = await response.text();
-
-            output.textContent = result;
-        } catch (error) {
-            output.textContent = "Network Error: " + error.message;
-        }
-    }
-</script>
+<script defer src="/js/script.js"></script>
 
 </body>
 </html>

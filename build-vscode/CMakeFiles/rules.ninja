@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/zhou/projects/JsonWebParser -B/home/zhou/projects/JsonWebParser/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/zhou/projects/JsonWebParser -B/home/zhou/projects/JsonWebParser/build-vscode
   description = Re-running CMake...
   generator = 1
 

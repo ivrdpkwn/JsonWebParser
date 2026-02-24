@@ -1,7 +1,12 @@
 # ninja log v5
-0	38	1771815704099841807	CMakeFiles/JsonWebParser.dir/src/main.cpp.o	5d9eb372deae1170
-1	603	1771815704664865797	CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o	638deaa177ad3612
-605	1406	1771815705463899722	CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o	e87b642085c8a1e2
-38	4049	1771815708108011979	CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o	4b7484fc467117
-0	10008	1771815714058264578	CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o	3a6092399d96eba7
-10008	10441	1771815714500283341	../JsonWebParser	dcef8203261ce3c1
+1	400	1771918429924155719	CMakeFiles/JsonWebParser.dir/src/main.cpp.o	324ad3a4b2f2cef
+1	5328	1771916840457335050	CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o	47474414b641433
+1	15852	1771916850977653029	CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o	2540dda2080352bd
+5330	5880	1771916841016351435	CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o	fd068307e4e599fb
+12068	15257	1771916850389634782	CMakeFiles/JsonWebParser.dir/src/middleware/ErrorMiddleware.cpp.o	1295f2ca1252770
+431	6176	1771916841308360047	CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o	a92a138d20d174c
+6176	12067	1771916847196536574	CMakeFiles/JsonWebParser.dir/src/config/config.cpp.o	d0f53161df16cba4
+21867	22681	1771916857813869260	bin/JsonWebParser	620204eb7d3a5ebb
+5881	6675	1771916841811374881	CMakeFiles/JsonWebParser.dir/src/utils/Logger.cpp.o	b6d9a4ee05565a0b
+6675	11354	1771916846488515036	CMakeFiles/JsonWebParser.dir/src/model/ApiResponse.cpp.o	6c18ac7f0ca76836
+11354	21867	1771916856992842917	CMakeFiles/JsonWebParser.dir/src/middleware/LoggerMiddleware.cpp.o	cf1e9bddfac7ef46

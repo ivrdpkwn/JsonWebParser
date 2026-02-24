@@ -1,27 +1,52 @@
 [
 {
   "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
-  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party -g -std=gnu++17 -o CMakeFiles/JsonWebParser.dir/src/main.cpp.o -c /home/zhou/projects/JsonWebParser/src/main.cpp",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/main.cpp.o -c /home/zhou/projects/JsonWebParser/src/main.cpp",
   "file": "/home/zhou/projects/JsonWebParser/src/main.cpp"
 },
 {
   "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
-  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party -g -std=gnu++17 -o CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o -c /home/zhou/projects/JsonWebParser/src/server/HttpServer.cpp",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o -c /home/zhou/projects/JsonWebParser/src/server/HttpServer.cpp",
   "file": "/home/zhou/projects/JsonWebParser/src/server/HttpServer.cpp"
 },
 {
   "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
-  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party -g -std=gnu++17 -o CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o -c /home/zhou/projects/JsonWebParser/src/controller/ParseController.cpp",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o -c /home/zhou/projects/JsonWebParser/src/controller/ParseController.cpp",
   "file": "/home/zhou/projects/JsonWebParser/src/controller/ParseController.cpp"
 },
 {
   "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
-  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party -g -std=gnu++17 -o CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o -c /home/zhou/projects/JsonWebParser/src/service/JsonService.cpp",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o -c /home/zhou/projects/JsonWebParser/src/service/JsonService.cpp",
   "file": "/home/zhou/projects/JsonWebParser/src/service/JsonService.cpp"
 },
 {
   "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
-  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party -g -std=gnu++17 -o CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o -c /home/zhou/projects/JsonWebParser/src/utils/FileUtil.cpp",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o -c /home/zhou/projects/JsonWebParser/src/utils/FileUtil.cpp",
   "file": "/home/zhou/projects/JsonWebParser/src/utils/FileUtil.cpp"
+},
+{
+  "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/utils/Logger.cpp.o -c /home/zhou/projects/JsonWebParser/src/utils/Logger.cpp",
+  "file": "/home/zhou/projects/JsonWebParser/src/utils/Logger.cpp"
+},
+{
+  "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/config/config.cpp.o -c /home/zhou/projects/JsonWebParser/src/config/config.cpp",
+  "file": "/home/zhou/projects/JsonWebParser/src/config/config.cpp"
+},
+{
+  "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/model/ApiResponse.cpp.o -c /home/zhou/projects/JsonWebParser/src/model/ApiResponse.cpp",
+  "file": "/home/zhou/projects/JsonWebParser/src/model/ApiResponse.cpp"
+},
+{
+  "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/middleware/LoggerMiddleware.cpp.o -c /home/zhou/projects/JsonWebParser/src/middleware/LoggerMiddleware.cpp",
+  "file": "/home/zhou/projects/JsonWebParser/src/middleware/LoggerMiddleware.cpp"
+},
+{
+  "directory": "/home/zhou/projects/JsonWebParser/build-vscode",
+  "command": "/usr/bin/g++ -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party -g -std=c++17 -o CMakeFiles/JsonWebParser.dir/src/middleware/ErrorMiddleware.cpp.o -c /home/zhou/projects/JsonWebParser/src/middleware/ErrorMiddleware.cpp",
+  "file": "/home/zhou/projects/JsonWebParser/src/middleware/ErrorMiddleware.cpp"
 }
 ]

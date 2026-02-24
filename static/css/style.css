@@ -365,3 +365,66 @@ footer {
 
     background: #4a4a4a;
 }
+
+
+
+/* =====================
+   JSON Viewer 补充样式
+   ===================== */
+
+/* 确保折叠箭头和行号垂直居中 */
+.json-line {
+    align-items: center;
+}
+
+/* 折叠箭头 hover 高亮 */
+.fold-toggle:hover {
+    color: var(--accent);
+}
+
+/* 折叠行被折叠时隐藏的行 */
+.json-line.collapsed {
+    display: none !important;
+}
+
+/* JSON viewer 内部滚动更顺滑 */
+.json-viewer {
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) var(--panel-2);
+}
+
+.json-viewer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.json-viewer::-webkit-scrollbar-track {
+    background: var(--panel-2);
+    border-radius: 4px;
+}
+
+.json-viewer::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 4px;
+    border: 2px solid var(--panel-2);
+}
+
+/* 折叠箭头大小与行号对齐 */
+.fold-toggle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* 可选：折叠行折叠箭头颜色过渡 */
+.fold-toggle {
+    transition: color 0.2s;
+}
+
+/* JSON line 内容自动换行，防止溢出 */
+.line-content {
+    flex: 1;
+    overflow-wrap: break-word; /* 空格可换行 */
+    word-break: break-all;     /* 长字符串也可换行 */
+}

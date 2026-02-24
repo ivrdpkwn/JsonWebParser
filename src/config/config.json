@@ -1,0 +1,9 @@
+{
+    "server": {
+        "port": 8080,
+        "max_request_size": 1048576,
+        "max_json_depth": 20,
+        "thread_pool_size": 4
+    },
+    "static_path": "../../static"
+}

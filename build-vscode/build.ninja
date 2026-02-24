@@ -51,38 +51,73 @@ build cmake_object_order_depends_target_JsonWebParser: phony || CMakeFiles/JsonW
 
 build CMakeFiles/JsonWebParser.dir/src/main.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/main.cpp || cmake_object_order_depends_target_JsonWebParser
   DEP_FILE = CMakeFiles/JsonWebParser.dir/src/main.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
   OBJECT_DIR = CMakeFiles/JsonWebParser.dir
   OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src
 
 build CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/server/HttpServer.cpp || cmake_object_order_depends_target_JsonWebParser
   DEP_FILE = CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
   OBJECT_DIR = CMakeFiles/JsonWebParser.dir
   OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/server
 
 build CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/controller/ParseController.cpp || cmake_object_order_depends_target_JsonWebParser
   DEP_FILE = CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
   OBJECT_DIR = CMakeFiles/JsonWebParser.dir
   OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/controller
 
 build CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/service/JsonService.cpp || cmake_object_order_depends_target_JsonWebParser
   DEP_FILE = CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
   OBJECT_DIR = CMakeFiles/JsonWebParser.dir
   OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/service
 
 build CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/utils/FileUtil.cpp || cmake_object_order_depends_target_JsonWebParser
   DEP_FILE = CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/third_party
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
   OBJECT_DIR = CMakeFiles/JsonWebParser.dir
   OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/utils
+
+build CMakeFiles/JsonWebParser.dir/src/utils/Logger.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/utils/Logger.cpp || cmake_object_order_depends_target_JsonWebParser
+  DEP_FILE = CMakeFiles/JsonWebParser.dir/src/utils/Logger.cpp.o.d
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
+  OBJECT_DIR = CMakeFiles/JsonWebParser.dir
+  OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/utils
+
+build CMakeFiles/JsonWebParser.dir/src/config/config.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/config/config.cpp || cmake_object_order_depends_target_JsonWebParser
+  DEP_FILE = CMakeFiles/JsonWebParser.dir/src/config/config.cpp.o.d
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
+  OBJECT_DIR = CMakeFiles/JsonWebParser.dir
+  OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/config
+
+build CMakeFiles/JsonWebParser.dir/src/model/ApiResponse.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/model/ApiResponse.cpp || cmake_object_order_depends_target_JsonWebParser
+  DEP_FILE = CMakeFiles/JsonWebParser.dir/src/model/ApiResponse.cpp.o.d
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
+  OBJECT_DIR = CMakeFiles/JsonWebParser.dir
+  OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/model
+
+build CMakeFiles/JsonWebParser.dir/src/middleware/LoggerMiddleware.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/middleware/LoggerMiddleware.cpp || cmake_object_order_depends_target_JsonWebParser
+  DEP_FILE = CMakeFiles/JsonWebParser.dir/src/middleware/LoggerMiddleware.cpp.o.d
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
+  OBJECT_DIR = CMakeFiles/JsonWebParser.dir
+  OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/middleware
+
+build CMakeFiles/JsonWebParser.dir/src/middleware/ErrorMiddleware.cpp.o: CXX_COMPILER__JsonWebParser_Debug /home/zhou/projects/JsonWebParser/src/middleware/ErrorMiddleware.cpp || cmake_object_order_depends_target_JsonWebParser
+  DEP_FILE = CMakeFiles/JsonWebParser.dir/src/middleware/ErrorMiddleware.cpp.o.d
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/zhou/projects/JsonWebParser/src -I/home/zhou/projects/JsonWebParser/src/server -I/home/zhou/projects/JsonWebParser/src/controller -I/home/zhou/projects/JsonWebParser/src/service -I/home/zhou/projects/JsonWebParser/src/utils -I/home/zhou/projects/JsonWebParser/src/config -I/home/zhou/projects/JsonWebParser/src/middleware -I/home/zhou/projects/JsonWebParser/src/model -I/home/zhou/projects/JsonWebParser/third_party
+  OBJECT_DIR = CMakeFiles/JsonWebParser.dir
+  OBJECT_FILE_DIR = CMakeFiles/JsonWebParser.dir/src/middleware
 
 
 # =============================================================================
@@ -90,15 +125,15 @@ build CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o: CXX_COMPILER__JsonW
 
 
 #############################################
-# Link the executable ../JsonWebParser
+# Link the executable bin/JsonWebParser
 
-build ../JsonWebParser: CXX_EXECUTABLE_LINKER__JsonWebParser_Debug CMakeFiles/JsonWebParser.dir/src/main.cpp.o CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o
+build bin/JsonWebParser: CXX_EXECUTABLE_LINKER__JsonWebParser_Debug CMakeFiles/JsonWebParser.dir/src/main.cpp.o CMakeFiles/JsonWebParser.dir/src/server/HttpServer.cpp.o CMakeFiles/JsonWebParser.dir/src/controller/ParseController.cpp.o CMakeFiles/JsonWebParser.dir/src/service/JsonService.cpp.o CMakeFiles/JsonWebParser.dir/src/utils/FileUtil.cpp.o CMakeFiles/JsonWebParser.dir/src/utils/Logger.cpp.o CMakeFiles/JsonWebParser.dir/src/config/config.cpp.o CMakeFiles/JsonWebParser.dir/src/model/ApiResponse.cpp.o CMakeFiles/JsonWebParser.dir/src/middleware/LoggerMiddleware.cpp.o CMakeFiles/JsonWebParser.dir/src/middleware/ErrorMiddleware.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lpthread
   OBJECT_DIR = CMakeFiles/JsonWebParser.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ../JsonWebParser
+  TARGET_FILE = bin/JsonWebParser
   TARGET_PDB = JsonWebParser.dbg
 
 
@@ -127,7 +162,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build JsonWebParser: phony ../JsonWebParser
+build JsonWebParser: phony bin/JsonWebParser
 
 # =============================================================================
 # Folder targets.
@@ -137,7 +172,7 @@ build JsonWebParser: phony ../JsonWebParser
 #############################################
 # Folder: /home/zhou/projects/JsonWebParser/build-vscode
 
-build all: phony ../JsonWebParser
+build all: phony bin/JsonWebParser
 
 # =============================================================================
 # Built-in targets
@@ -146,14 +181,14 @@ build all: phony ../JsonWebParser
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
 
 
 #############################################

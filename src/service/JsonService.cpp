@@ -1,5 +1,6 @@
-#include "JsonService.h"
+#include "JsonService.hpp"
 #include "../../third_party/json.hpp"
+#include "../utils/Logger.hpp"
 #include <iostream>
 
 
@@ -11,12 +12,12 @@
 std::string JsonService::formatJson(const std::string& input) {
     try {
         // 解析 JSON
-        auto parsed = nlohmann::json::parse(input);
+        auto parsed = nlohmann::ordered_json::parse(input);
 
         // 格式化输出（4空格缩进）
         return parsed.dump(4);
     }
-    catch (const nlohmann::json::parse_error& e){
+    catch (const nlohmann::ordered_json::parse_error& e){
         return std::string("JSON Parse Error: ") + e.what();
     }
     catch (const std::exception& e){
@@ -26,14 +27,14 @@ std::string JsonService::formatJson(const std::string& input) {
 
 
 /* isValidJson()
- * 用 nlohmann::json::parse()
+ * 用 nlohmann::ordered_json::parse()
  * 用 try-catch 捕获异常
  * 如果抛异常 → false
  * 没抛 → true*/
 
 bool JsonService::isValidJson(const std::string& input) {
     try {
-        auto parsed = nlohmann::json::parse(input);
+        auto parsed = nlohmann::ordered_json::parse(input);
         return true;
     }
     catch (...) {

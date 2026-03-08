@@ -1,3 +1,0 @@
-/home/zhou/projects/JsonWebParser/build-vscode/CMakeFiles/JsonWebParser.dir
-/home/zhou/projects/JsonWebParser/build-vscode/CMakeFiles/edit_cache.dir
-/home/zhou/projects/JsonWebParser/build-vscode/CMakeFiles/rebuild_cache.dir

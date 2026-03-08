@@ -1,0 +1,24 @@
+# build directory
+build/
+build-vscode/
+
+# compiled files
+*.o
+*.out
+*.exe
+
+# cmake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# logs
+logs/*.log
+*.log
+
+# vscode
+.vscode/
+
+# mac
+.DS_Store

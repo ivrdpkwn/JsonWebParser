@@ -13,7 +13,7 @@ public:
     static void debug(const std::string& message);
 
     // 初始化 / 关闭
-    static void init(const std::string& logPath = "../../logs/server.log", std::size_t maxSize = 10 * 1024 * 1024);
+    static void init(const std::string& logPath , std::size_t maxSize);
     static void shutdown();
 
 private:

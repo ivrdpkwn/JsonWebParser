@@ -5,5 +5,5 @@
         "max_json_depth": 20,
         "thread_pool_size": 4
     },
-    "static_path": "../../static"
+    "static_path": "static"
 }

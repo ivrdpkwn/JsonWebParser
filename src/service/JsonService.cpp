@@ -3,7 +3,6 @@
 #include "../utils/Logger.hpp"
 #include <iostream>
 
-
 /* formatJson()
  * 先 parse
  * 然后用 dump(4) 生成缩进为4空格的格式化字符串
